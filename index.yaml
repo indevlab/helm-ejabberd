@@ -1,0 +1,22 @@
+apiVersion: v1
+entries:
+  ejabberd:
+  - apiVersion: v2
+    appVersion: 24.12-k8s
+    created: "2025-02-17T06:29:28.372558+02:00"
+    description: ejabberd XMPP server helm chart
+    digest: 3ac9f340743e48e25e17625a6246d8423a7f876ef64cf547fce2f09da415851c
+    keywords:
+    - xmpp
+    - mqtt
+    - sip
+    - stun
+    maintainers:
+    - email: d.hanzhelo@indevlab.com
+      name: dhanzhelo
+    name: ejabberd
+    type: application
+    urls:
+    - ejabberd-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-02-17T06:29:28.371103+02:00"
