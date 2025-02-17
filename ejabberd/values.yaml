@@ -4,11 +4,11 @@
 
 image:
   # -- ejabberd image host registry
-  registry: ghcr.io
+  registry: hub.docker.com
   # -- ejabberd image repository
-  repository: sando38/helm-ejabberd
+  repository: indevlab/ejabberd
   # -- defaults to appVersion
-  tag: ""
+  tag: "24.12-k8s"
   # -- ejabberd image pull policy
   pullPolicy: IfNotPresent
 
