@@ -1,11 +1,25 @@
 apiVersion: v1
 entries:
   ejabberd:
-  - apiVersion: v2
+  - annotations:
+      artifacthub.io/category: streaming-messaging
+      artifacthub.io/links: |
+        - name: ejabberd
+          url: https://github.com/processone/ejabberd
+        - name: Process One
+          url: https://www.process-one.net/
+        - name: InDevLab
+          url: https://indevlab.com/
+      category: Messaging
+      images: |
+        - name: ejabberd
+          image: docker.io/indevlab/ejabberd:24.12-k8s
+      licenses: GPl-3.0
+    apiVersion: v2
     appVersion: 24.12-k8s
-    created: "2025-02-17T13:07:20.72319+02:00"
+    created: "2025-02-19T03:34:21.056778+02:00"
     description: ejabberd XMPP server helm chart
-    digest: cfba2775d4497396f430082a07b00c83dcf1462bffa88f2dae42135a23b877b3
+    digest: 627443a3fed8eb0a74415d300f113a089919dd1e3a6c268c718259f2f1a6109c
     keywords:
     - xmpp
     - mqtt
@@ -19,4 +33,4 @@ entries:
     urls:
     - ejabberd-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-17T13:07:20.720977+02:00"
+generated: "2025-02-19T03:34:21.055155+02:00"

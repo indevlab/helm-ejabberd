@@ -4,7 +4,7 @@
 
 image:
   # -- ejabberd image host registry
-  registry: hub.docker.com
+  registry: docker.io
   # -- ejabberd image repository
   repository: indevlab/ejabberd
   # -- defaults to appVersion

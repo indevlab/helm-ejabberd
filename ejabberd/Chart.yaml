@@ -9,7 +9,20 @@ keywords:
   - mqtt
   - sip
   - stun
-
+annotations:
+  artifacthub.io/category: streaming-messaging
+  artifacthub.io/links: |
+    - name: ejabberd
+      url: https://github.com/processone/ejabberd
+    - name: Process One
+      url: https://www.process-one.net/
+    - name: InDevLab
+      url: https://indevlab.com/
+  category: Messaging
+  licenses: GPl-3.0
+  images: |
+    - name: ejabberd
+      image: docker.io/indevlab/ejabberd:24.12-k8s
 maintainers:
   - name: dhanzhelo
     email: d.hanzhelo@indevlab.com
