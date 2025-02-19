@@ -17,9 +17,9 @@ entries:
       licenses: GPl-3.0
     apiVersion: v2
     appVersion: 24.12-k8s
-    created: "2025-02-19T03:34:21.056778+02:00"
+    created: "2025-02-19T03:52:01.363125+02:00"
     description: ejabberd XMPP server helm chart
-    digest: 627443a3fed8eb0a74415d300f113a089919dd1e3a6c268c718259f2f1a6109c
+    digest: 4516d3011c26e20f8efc7f1d07b24f5fb1568c9267d85c39aa68a37dc2aecfbe
     keywords:
     - xmpp
     - mqtt
@@ -33,4 +33,4 @@ entries:
     urls:
     - ejabberd-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-19T03:34:21.055155+02:00"
+generated: "2025-02-19T03:52:01.361561+02:00"
